@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build": "npm run clean && tsc",
-    "clean": "rimraf build",
+    "clean": "rm -rf build",
     "start": "node build/index.js",
     "startnode": "node build/index.js",
     "test": "nodemon src/index.ts",
